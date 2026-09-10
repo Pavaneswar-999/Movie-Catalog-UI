@@ -8,14 +8,6 @@ Premium Material 3 Android application built with Kotlin. Demonstrates advanced 
 *   **Premium Dark Theme**: High-contrast Material 3 dark palette.
 *   **Audited Codebase**: Zero unused XML or Kotlin files. Optimized resource management.
 
-## Visualization Modes
-| Mode | Description |
-| :--- | :--- |
-| **Table View** | Alternating row colors for high-density data. |
-| **Grid View** | 2-column responsive grid with 12dp rounded poster corners. |
-| **Card List** | Vertical scrollable list with rich movie cards. |
-| **Recycler View** | Smooth horizontal scroll implementation. |
-
 ## UI Sync Logic
 Robust state management using an `isUpdating` flag to prevent recursive listener triggers. Ensures consistent UI state across all inputs (RadioGroup, CheckBoxes, Spinner).
 
@@ -24,6 +16,16 @@ Robust state management using an `isUpdating` flag to prevent recursive listener
 *   Zero unused Kotlin classes or imports.
 *   100% density-independent scaling (dp).
 *   All strings extracted to `strings.xml`.
+
+## Screenshots
+<p align="center">
+  <img src="screenshots/table_view.png" width="45%" alt="Table View" />
+  <img src="screenshots/grid_view.png" width="45%" alt="Grid View" />
+</p>
+<p align="center">
+  <img src="screenshots/card_view.png" width="45%" alt="Card List View" />
+  <img src="screenshots/recycler_view.png" width="45%" alt="Recycler View" />
+</p>
 
 ## Technical Stack
 *   **Language**: Kotlin
