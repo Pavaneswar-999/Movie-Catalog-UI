@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">layout demo</string>
+    <string name="app_title">LAYOUT DEMO</string>
+    <string name="table_view">Table view</string>
+    <string name="grid_view">Grid view</string>
+    <string name="card_view">Scroll view &amp; Card Layout</string>
+    <string name="recycler_view">Recycler view</string>
+    <string name="select_view">Select View</string>
+
+    <string name="movie_table_title">Movie Table View</string>
+    <string name="movie_grid_title">Movie Grid View</string>
+    <string name="movie_card_title">Movie Card List View</string>
+    <string name="movie_recycler_title">Horizontal Recycler View</string>
+    <string name="movie_list_view">Movie List View</string>
+
+    <string-array name="spinner_items">
+        <item>@string/select_view</item>
+        <item>@string/table_view</item>
+        <item>@string/grid_view</item>
+        <item>@string/card_view</item>
+        <item>@string/recycler_view</item>
+    </string-array>
+</resources>

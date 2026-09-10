@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/background">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="16dp">
+
+        <!-- Preview for Design Tab -->
+        <ImageView android:layout_width="0dp" android:layout_height="200dp" android:layout_columnWeight="1" android:layout_margin="8dp" android:scaleType="centerCrop" android:src="@drawable/it" />
+        <ImageView android:layout_width="0dp" android:layout_height="200dp" android:layout_columnWeight="1" android:layout_margin="8dp" android:scaleType="centerCrop" android:src="@drawable/ghost" />
+        <ImageView android:layout_width="0dp" android:layout_height="200dp" android:layout_columnWeight="1" android:layout_margin="8dp" android:scaleType="centerCrop" android:src="@drawable/scream" />
+        <ImageView android:layout_width="0dp" android:layout_height="200dp" android:layout_columnWeight="1" android:layout_margin="8dp" android:scaleType="centerCrop" android:src="@drawable/lantern" />
+        <ImageView android:layout_width="0dp" android:layout_height="200dp" android:layout_columnWeight="1" android:layout_margin="8dp" android:scaleType="centerCrop" android:src="@drawable/crawlers" />
+        <ImageView android:layout_width="0dp" android:layout_height="200dp" android:layout_columnWeight="1" android:layout_margin="8dp" android:scaleType="centerCrop" android:src="@drawable/sinister" />
+        <ImageView android:layout_width="0dp" android:layout_height="200dp" android:layout_columnWeight="1" android:layout_margin="8dp" android:scaleType="centerCrop" android:src="@drawable/evil_dead" />
+        <ImageView android:layout_width="0dp" android:layout_height="200dp" android:layout_columnWeight="1" android:layout_margin="8dp" android:scaleType="centerCrop" android:src="@drawable/halloween" />
+        <ImageView android:layout_width="0dp" android:layout_height="200dp" android:layout_columnWeight="1" android:layout_margin="8dp" android:scaleType="centerCrop" android:src="@drawable/the_exorcist" />
+        <ImageView android:layout_width="0dp" android:layout_height="200dp" android:layout_columnWeight="1" android:layout_margin="8dp" android:scaleType="centerCrop" android:src="@drawable/the_conjuring" />
+
+    </GridLayout>
+</ScrollView>

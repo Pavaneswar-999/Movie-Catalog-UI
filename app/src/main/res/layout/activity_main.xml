@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_title"
+        android:textAlignment="center"
+        android:textColor="@color/onSurface"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <!-- Left Column: Radio Group -->
+        <RadioGroup
+            android:id="@+id/rg_views"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/rb_table"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/onSurface"
+                android:buttonTint="@color/primary"
+                android:text="@string/table_view" />
+
+            <RadioButton
+                android:id="@+id/rb_grid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/onSurface"
+                android:buttonTint="@color/primary"
+                android:text="@string/grid_view" />
+
+            <RadioButton
+                android:id="@+id/rb_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/onSurface"
+                android:buttonTint="@color/primary"
+                android:text="@string/card_view" />
+
+            <RadioButton
+                android:id="@+id/rb_recycler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/onSurface"
+                android:buttonTint="@color/primary"
+                android:text="@string/recycler_view" />
+        </RadioGroup>
+
+        <!-- Right Column: Check Boxes -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cb_table"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/onSurface"
+                android:buttonTint="@color/primary"
+                android:text="@string/table_view" />
+
+            <CheckBox
+                android:id="@+id/cb_grid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/onSurface"
+                android:buttonTint="@color/primary"
+                android:text="@string/grid_view" />
+
+            <CheckBox
+                android:id="@+id/cb_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/onSurface"
+                android:buttonTint="@color/primary"
+                android:text="@string/card_view" />
+
+            <CheckBox
+                android:id="@+id/cb_recycler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/onSurface"
+                android:buttonTint="@color/primary"
+                android:text="@string/recycler_view" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/onSurfaceVariant" />
+
+    <TextView
+        android:id="@+id/tv_view_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/movie_list_view"
+        android:textAlignment="center"
+        android:textColor="@color/onSurface"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</LinearLayout>
