@@ -13,7 +13,7 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Preview for Design Tab -->
+
         <include layout="@layout/item_movie_card" />
         <include layout="@layout/item_movie_card" />
         <include layout="@layout/item_movie_card" />
